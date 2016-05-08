@@ -1,0 +1,25 @@
+{
+    "name": "onceler/custom-migration-bundle",
+    "description": "This is an extention for Doctrine's Migration Generator that lets you provide more customized generation sucd migrations. Things like impliments, custom extentions, post-up, post-down, extra paramaters, and extra methods.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Baugh",
+            "email": "loraxx753@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "^3.0",
+        "symfony/yaml": "~2.3|~3.0",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/migrations": "^1.4",
+        "doctrine/doctrine-migrations-bundle": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "autoload": {
+        "psr-4": { "Onceler\\CustomMigrationBundle\\": "" }
+    },
+}

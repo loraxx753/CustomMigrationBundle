@@ -1,0 +1,4 @@
+services:
+#    onceler_custom_migration.example:
+#        class: Onceler\CustomMigrationBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
